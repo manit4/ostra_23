@@ -1,45 +1,101 @@
-
-class Human {
-
-	int iq = 4;
-	int height = 1;
-	
-	public Human() {
-		
-	}
-	
-	Human(int value1, int value2) {
-		
-		iq = value1;
-		height = value2;
-	}
-	
-	void study() {
-
-		iq++;
-	}
-
-	void playingBasketBall() {
-
-		height++;
-	}
-}
-
 public class First {
 
 	public static void main(String[] args) {
 
-		Human gaurav = new Human(10, 2);
+		com.osttra.First first = new com.osttra.First();
 		
-		System.out.println(gaurav.height);
-		System.out.println(gaurav.iq);
-		
-		Human h1 = new Human();
-		System.out.println(h1.iq);
-		System.out.println(h1.height);
+		first.check();
 				
 	}
 }
+
+
+//public class First {
+//
+//	public static void main(String[] args) {
+//
+//		com.osttra.First first = new com.osttra.First();
+//		
+//		first.check();
+//				
+//	}
+//}
+
+
+//public class First {
+//
+//	public static void main(String[] args) {
+//
+//		User user = new User("tri.123", "jal12");
+//		
+//		System.out.println(user.getUsername());
+//		System.out.println(user.getPasword());
+//		
+//		
+//				
+//	}
+//}
+
+//public class First {
+//
+//	public static void main(String[] args) {
+//
+//		User user = new User();
+//		
+//		System.out.println(user.getUsername());
+//		System.out.println(user.getPasword());
+//		
+//		user.setUsername("kh.ram");
+//		user.setPasword("1234");
+//		
+//		System.out.println(user.getUsername());
+//		System.out.println(user.getPasword());
+//				
+//	}
+//}
+
+
+//class Human {
+//
+//	int iq = 4;
+//	int height = 1;
+//	
+//	public Human() {
+//		
+//	}
+//	
+//	Human(int value1, int value2) {
+//		
+//		iq = value1;
+//		height = value2;
+//	}
+//	
+//	void study() {
+//
+//		iq++;
+//	}
+//
+//	void playingBasketBall() {
+//
+//		height++;
+//	}
+//}
+//
+//public class First {
+//
+//	public static void main(String[] args) {
+//
+//		Human gaurav = new Human(10, 2);
+//		
+//		System.out.println(gaurav.height);
+//		System.out.println(gaurav.iq);
+//		
+//		Human h1 = new Human();
+//		System.out.println(h1.iq);
+//		System.out.println(h1.height);
+//				
+//	}
+//}
 
 
 //
