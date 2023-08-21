@@ -1,8 +1,10 @@
 package com.osttra.pojo;
 
-public class Student implements Comparable<Student>{
+import java.io.Serializable;
+
+public class Student implements Comparable<Student>, Serializable{
 	
-	private int key;
+	private transient int key;
 	private String value;
 	public Student() {
 		
